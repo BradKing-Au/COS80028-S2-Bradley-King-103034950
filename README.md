@@ -123,7 +123,7 @@ Directory after running wb_models_and_hyperparameter_tuning.ipynb and eb_models.
 - |clean_data
   - ebdataset.csv
   - wbdataset.csv
-- predictions
+- |predictions
   - eb5minpred.csv
   - eb10minpred.csv
   - eb15minpred.csv
@@ -252,7 +252,7 @@ Directory After running gifcreation.ipynb
 - |clean_data
   - ebdataset.csv
   - wbdataset.csv
-- predictions
+- |predictions
   - eb5minpred.csv
   - eb10minpred.csv
   - eb15minpred.csv
