@@ -1,6 +1,6 @@
 # COS80028-S2-Bradley-King-103034950
 
-#Bradley King COS80028 Transportation Forecast Readme and User Documention
+# Bradley King COS80028 Transportation Forecast Readme and User Documention
 
 This repository may be accessed locally by opening a Command Prompt with git installed,
 navigating to the desired directory to store the project and entering
@@ -12,7 +12,7 @@ and the repository will be downloaded to your local machine.
 This project cannot be run without the formatted_raw_data folder. Due to a Non-disclosure agreement, data may not be stored in online repositories.
 Should you have access to the formatted_raw_data folder, please place it in the project directory as shown below.
 
-##Initial directory setup
+## Initial directory setup
 
 Parent Directory
 
@@ -42,7 +42,7 @@ provided in this documentation does not natively install tensorflow and other li
 
 
 
-##Virtual Environment creation
+## Virtual Environment creation
 
 Open anaconda prompt and naviagte to project directory
 Create a virutal environment using
@@ -91,7 +91,7 @@ Parent Directory
 --|readme.RD
 --|anvil_web_code.txt
 
-##Running model develpment notebook files remotely on Google Colaboratory
+## Running model develpment notebook files remotely on Google Colaboratory
 
 To run wb_models_and_hyperparameter_tuning.ipynb or eb_models.ipynb on Google Colaboratory, open a web browser and navigate to https://colab.research.google.com/
 
@@ -228,7 +228,7 @@ Directory after running wb_models_and_hyperparameter_tuning.ipynb and eb_models.
 --|readme.RD
 --|anvil_web_code.txt
 
-##Creating Dashboard Visualisations Locally
+## Creating Dashboard Visualisations Locally
 
 After populating the predictions and truths folders using the eb_models.ipynb and wb_models_and_hyperparameter_tuning.ipynb,
 sample visualisations to be deployed to the dashboard may be generated.
