@@ -110,7 +110,6 @@ If running these files locally, please comment out cell 3, and the final cell wh
 
 
 Directory after running wb_models_and_hyperparameter_tuning.ipynb and eb_models.ipynb
-
 --|formatted_raw_data
 ----|EB14010.csv
 ----|EB14032.csv
@@ -369,6 +368,7 @@ Directory After running gifcreation.ipynb
 --|gifcreation.ipynb
 --|readme.RD
 --|anvil_web_code.txt
+
 
 After running gifcreation.ipynb the contents of the visualisations folder was hosted on gifyu.
 Anvil.works was used to create a dashboard to host these visualisations.
