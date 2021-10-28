@@ -1,0 +1,66 @@
+from ._anvil_designer import Form1Template
+from anvil import *
+import anvil.server
+
+class Form1(Form1Template):
+
+  def __init__(self, **properties):
+    # Set Form properties and Data Bindings.
+    self.init_components(**properties)
+    url = 'https://s1.gifyu.com/images/wb5animation.gif'
+    self.plotspace.source = url
+    # Any code you write here will run when the form opens.
+
+
+    pass
+
+  def drop_down_1_change(self, **event_args):
+    """This method is called when an item is selected"""
+    if self.drop_down_1.selected_value == 'West Bound in 5 minutes':
+      url = 'https://s1.gifyu.com/images/wb5animation.gif'
+      self.plotspace.source = url
+    elif self.drop_down_1.selected_value == "West Bound in 10 minutes":
+      url = 'https://s1.gifyu.com/images/wb10animation.gif'
+      self.plotspace.source = url
+    elif self.drop_down_1.selected_value == "West Bound in 15 minutes":
+      url = 'https://s1.gifyu.com/images/wb15animation.gif'
+      self.plotspace.source = url
+    elif self.drop_down_1.selected_value == "West Bound in 30 minutes":
+      url = 'https://s1.gifyu.com/images/wb30animation.gif'
+      self.plotspace.source = url 
+    elif self.drop_down_1.selected_value == "West Bound in 45 minutes":
+      url = 'https://s1.gifyu.com/images/wb45animation.gif'
+      self.plotspace.source = url  
+    elif self.drop_down_1.selected_value == "West Bound in 60 minutes":
+      url = 'https://s1.gifyu.com/images/wb60animation.gif'
+      self.plotspace.source = url  
+    elif self.drop_down_1.selected_value == "East Bound in 5 minutes":
+      url = 'https://s1.gifyu.com/images/eb5animation2.gif'
+      self.plotspace.source = url
+    elif self.drop_down_1.selected_value == "East Bound in 10 minutes":
+      url = 'https://s1.gifyu.com/images/eb10animation2.gif'
+      self.plotspace.source = url
+    elif self.drop_down_1.selected_value == "East Bound in 15 minutes":
+      url = 'https://s1.gifyu.com/images/eb15animation.gif'
+      self.plotspace.source = url  
+    elif self.drop_down_1.selected_value == "East Bound in 30 minutes":
+      url = 'https://s1.gifyu.com/images/eb30animation.gif'
+      self.plotspace.source = url
+    elif self.drop_down_1.selected_value == "East Bound in 45 minutes":
+      url = 'https://s1.gifyu.com/images/eb45animation.gif'
+      self.plotspace.source = url
+    elif self.drop_down_1.selected_value == "East Bound in 60 minutes":
+      url = 'https://s1.gifyu.com/images/eb60animation.gif'
+      self.plotspace.source = url
+
+      
+    
+      
+    
+
+
+
+
+
+
+
