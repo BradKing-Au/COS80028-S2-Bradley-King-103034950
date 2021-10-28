@@ -17,7 +17,7 @@ Should you have access to the formatted_raw_data folder, please place it in the 
 Parent Directory
 
 
-- formatted_raw_data
+- |formatted_raw_data
   - EB14010.csv
   - EB14032.csv
   - EB14045.csv
@@ -72,25 +72,25 @@ Directory after running Data LoadingEB.ipynb and Data LoadingWB.ipynb:
 
 Parent Directory
 
---|formatted_raw_data
-----|EB14010.csv
-----|EB14032.csv
-----|EB14045.csv
-----|EB14061.csv
-----|WB14003.csv
-----|WB14031.csv
-----|WB14051.csv
-----|wb14063.csv
---|clean_data
-----|ebdataset.csv
-----|wbdataset.csv
---|Data LoadingEB.ipynb
---|Data LoadingWB.ipynb
---|eb_models.ipynb
---|wb_models_and_hyperparameter_tuning.ipynb
---|gifcreation.ipynb
---|readme.RD
---|anvil_web_code.txt
+- |formatted_raw_data
+  - EB14010.csv
+  - EB14032.csv
+  - EB14045.csv
+  - EB14061.csv
+  - WB14003.csv
+  - WB14031.csv
+  - WB14051.csv
+  - wb14063.csv
+- |clean_data
+  - ebdataset.csv
+  - wbdataset.csv
+- Data LoadingEB.ipynb
+- Data LoadingWB.ipynb
+- eb_models.ipynb
+- wb_models_and_hyperparameter_tuning.ipynb
+- gifcreation.ipynb
+- readme.RD
+- anvil_web_code.txt
 
 ## Running model develpment notebook files remotely on Google Colaboratory
 
@@ -111,122 +111,122 @@ If running these files locally, please comment out cell 3, and the final cell wh
 
 
 Directory after running wb_models_and_hyperparameter_tuning.ipynb and eb_models.ipynb
---|formatted_raw_data
-----|EB14010.csv
-----|EB14032.csv
-----|EB14045.csv
-----|EB14061.csv
-----|WB14003.csv
-----|WB14031.csv
-----|WB14051.csv
-----|wb14063.csv
---|clean_data
-----|ebdataset.csv
-----|wbdataset.csv
---|predictions
-----|eb5minpred.csv
-----|eb10minpred.csv
-----|eb15minpred.csv
-----|eb30minpred.csv
-----|eb45minpred.csv
-----|eb60minpred.csv
-----|wb5minpred.csv
-----|wb10minpred.csv
-----|wb15minpred.csv
-----|wb30minpred.csv
-----|wb45minpred.csv
-----|wb60minpred.csv
---|truths
-----|eb5.csv
-----|eb10.csv
-----|eb15.csv
-----|eb30.csv
-----|eb45.csv
-----|eb60.csv
-----|wb5.csv
-----|wb10.csv
-----|wb15.csv
-----|wb30.csv
-----|wb45.csv
-----|wb60.csv
---|model_performances
-----|ebcorrmatrix.csv
-----|eb_test_losses_time
-----|eb_train_losses_time
-----|eb_val_losses_time
-----|wbcorrmatrix.csv
-----|wb_test_losses_time
-----|wb_train_losses_time
-----|wb_val_losses_time
---|EBmodels
-----|eb5
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb10
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb15
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb30
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb45
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb60
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
---|WBmodels
-----|wb5
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb10
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb15
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb30
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb45
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb60
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
---|Data LoadingEB.ipynb
---|Data LoadingWB.ipynb
---|eb_models.ipynb
---|wb_models_and_hyperparameter_tuning.ipynb
---|gifcreation.ipynb
---|readme.RD
---|anvil_web_code.txt
+- |formatted_raw_data
+  - EB14010.csv
+  - EB14032.csv
+  - EB14045.csv
+  - EB14061.csv
+  - WB14003.csv
+  - WB14031.csv
+  - WB14051.csv
+  - wb14063.csv
+- |clean_data
+  - ebdataset.csv
+  - wbdataset.csv
+- predictions
+  - eb5minpred.csv
+  - eb10minpred.csv
+  - eb15minpred.csv
+  - eb30minpred.csv
+  - eb45minpred.csv
+  - eb60minpred.csv
+  - wb5minpred.csv
+  - wb10minpred.csv
+  - wb15minpred.csv
+  - wb30minpred.csv
+  - wb45minpred.csv
+  - wb60minpred.csv
+- |truths
+  - eb5.csv
+  - eb10.csv
+  - eb15.csv
+  - eb30.csv
+  - eb45.csv
+  - eb60.csv
+  - wb5.csv
+  - wb10.csv
+  - wb15.csv
+  - wb30.csv
+  - wb45.csv
+  - wb60.csv
+- |model_performances
+  - ebcorrmatrix.csv
+  - eb_test_losses_time
+  - eb_train_losses_time
+  - eb_val_losses_time
+  - wbcorrmatrix.csv
+  - wb_test_losses_time
+  - wb_train_losses_time
+  - wb_val_losses_time
+- |EBmodels
+  - |eb5
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb10
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb15
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb30
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb45
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb60
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+- |WBmodels
+  - |wb5
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb10
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb15
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb30
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb45
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb60
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+- Data LoadingEB.ipynb
+- Data LoadingWB.ipynb
+- eb_models.ipynb
+- wb_models_and_hyperparameter_tuning.ipynb
+- gifcreation.ipynb
+- readme.RD
+- anvil_web_code.txt
 
 ## Creating Dashboard Visualisations Locally
 
@@ -240,135 +240,135 @@ This populates the visualisations folders.
 
 Directory After running gifcreation.ipynb
 
---|formatted_raw_data
-----|EB14010.csv
-----|EB14032.csv
-----|EB14045.csv
-----|EB14061.csv
-----|WB14003.csv
-----|WB14031.csv
-----|WB14051.csv
-----|wb14063.csv
---|clean_data
-----|ebdataset.csv
-----|wbdataset.csv
---|predictions
-----|eb5minpred.csv
-----|eb10minpred.csv
-----|eb15minpred.csv
-----|eb30minpred.csv
-----|eb45minpred.csv
-----|eb60minpred.csv
-----|wb5minpred.csv
-----|wb10minpred.csv
-----|wb15minpred.csv
-----|wb30minpred.csv
-----|wb45minpred.csv
-----|wb60minpred.csv
---|truths
-----|eb5.csv
-----|eb10.csv
-----|eb15.csv
-----|eb30.csv
-----|eb45.csv
-----|eb60.csv
-----|wb5.csv
-----|wb10.csv
-----|wb15.csv
-----|wb30.csv
-----|wb45.csv
-----|wb60.csv
---|model_performances
-----|ebcorrmatrix.csv
-----|eb_test_losses_time
-----|eb_train_losses_time
-----|eb_val_losses_time
-----|wbcorrmatrix.csv
-----|wb_test_losses_time
-----|wb_train_losses_time
-----|wb_val_losses_time
---|EBmodels
-----|eb5
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb10
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb15
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb30
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb45
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|eb60
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
---|WBmodels
-----|wb5
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb10
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb15
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb30
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb45
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
-----|wb60
-------|assets
-------|variables
-------|keras_metadata.pb
-------|saved_model.pb
---visualisations|
-----eb5animation.gif
-----eb10animation.gif
-----eb15animation.gif
-----eb30animation.gif
-----eb45animation.gif
-----eb60animation.gif
-----wb5animation.gif
-----wb10animation.gif
-----wb15animation.gif
-----wb30animation.gif
-----wb45animation.gif
-----wb60animation.gif
---|Data LoadingEB.ipynb
---|Data LoadingWB.ipynb
---|eb_models.ipynb
---|wb_models_and_hyperparameter_tuning.ipynb
---|gifcreation.ipynb
---|readme.RD
---|anvil_web_code.txt
+- |formatted_raw_data
+  - EB14010.csv
+  - EB14032.csv
+  - EB14045.csv
+  - EB14061.csv
+  - WB14003.csv
+  - WB14031.csv
+  - WB14051.csv
+  - wb14063.csv
+- |clean_data
+  - ebdataset.csv
+  - wbdataset.csv
+- predictions
+  - eb5minpred.csv
+  - eb10minpred.csv
+  - eb15minpred.csv
+  - eb30minpred.csv
+  - eb45minpred.csv
+  - eb60minpred.csv
+  - wb5minpred.csv
+  - wb10minpred.csv
+  - wb15minpred.csv
+  - wb30minpred.csv
+  - wb45minpred.csv
+  - wb60minpred.csv
+- |truths
+  - eb5.csv
+  - eb10.csv
+  - eb15.csv
+  - eb30.csv
+  - eb45.csv
+  - eb60.csv
+  - wb5.csv
+  - wb10.csv
+  - wb15.csv
+  - wb30.csv
+  - wb45.csv
+  - wb60.csv
+- |model_performances
+  - ebcorrmatrix.csv
+  - eb_test_losses_time
+  - eb_train_losses_time
+  - eb_val_losses_time
+  - wbcorrmatrix.csv
+  - wb_test_losses_time
+  - wb_train_losses_time
+  - wb_val_losses_time
+- |EBmodels
+  - |eb5
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb10
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb15
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb30
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb45
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |eb60
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+- |WBmodels
+  - |wb5
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb10
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb15
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb30
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb45
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+  - |wb60
+    - |assets
+    - |variables
+    - keras_metadata.pb
+    - saved_model.pb
+- |visualisations
+  - eb5animation.gif
+  - eb10animation.gif
+  - eb15animation.gif
+  - eb30animation.gif
+  - eb45animation.gif
+  - eb60animation.gif
+  - wb5animation.gif
+  - wb10animation.gif
+  - wb15animation.gif
+  - wb30animation.gif
+  - wb45animation.gif
+  - wb60animation.gif 
+- Data LoadingEB.ipynb
+- Data LoadingWB.ipynb
+- eb_models.ipynb
+- wb_models_and_hyperparameter_tuning.ipynb
+- gifcreation.ipynb
+- readme.RD
+- anvil_web_code.txt
 
 
 After running gifcreation.ipynb the contents of the visualisations folder was hosted on gifyu.
