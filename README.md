@@ -17,37 +17,22 @@ Should you have access to the formatted_raw_data folder, please place it in the 
 Parent Directory
 
 
---|formatted_raw_data
-
-----|EB14010.csv
-
-----|EB14032.csv
-
-----|EB14045.csv
-
-----|EB14061.csv
-
-----|WB14003.csv
-
-----|WB14031.csv
-
-----|WB14051.csv
-
-----|wb14063.csv
-
---|Data LoadingEB.ipynb
-
---|Data LoadingWB.ipynb
-
---|eb_models.ipynb
-
---|wb_models_and_hyperparameter_tuning.ipynb
-
---|gifcreation.ipynb
-
---|readme.RD
-
---|anvil_web_code.txt
+- formatted_raw_data
+  - EB14010.csv
+  - EB14032.csv
+  - EB14045.csv
+  - EB14061.csv
+  - WB14003.csv
+  - WB14031.csv
+  - WB14051.csv
+  - wb14063.csv
+- Data LoadingEB.ipynb
+- Data LoadingWB.ipynb
+- eb_models.ipynb
+- wb_models_and_hyperparameter_tuning.ipynb
+- gifcreation.ipynb
+- readme.RD
+- anvil_web_code.txt
 
 Directory after importing formatted_raw_data from external source
 
